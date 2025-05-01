@@ -167,10 +167,6 @@ const Login = () => {
                     Entrar
                   </button>
                   
-                  <div className="text-center text-sm text-gray-500 mt-4">
-                    <p>Use as credenciais de administrador:</p>
-                    <p>Usuário: <strong>Elidio</strong>, Senha: <strong>762555</strong></p>
-                  </div>
                 </form>
               ) : (
                 <form onSubmit={handleRegister} className="space-y-4">
@@ -257,7 +253,7 @@ const Login = () => {
           </div>
 
           <div className="mt-6 text-center text-sm text-gray-500">
-            EPROJECTS © {new Date().getFullYear()} - Ferramentas de Engenharia Mecânica
+            EPROJECTS By Elidio Peirão Junior © {new Date().getFullYear()} - Ferramentas de Engenharia Mecânica
           </div>
         </div>
       </main>
